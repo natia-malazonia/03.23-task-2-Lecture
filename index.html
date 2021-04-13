@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>Event Regisdivation</title>
+</head>
+
+<body id="grad">
+    <div class="container">
+        <h1>EVENT REGISdivATION FORM</h1>
+        <form action="">
+            <div>
+                <div>
+                    <div>Name</div>
+                    <div>
+                        <div class="f-name inline-div">
+                            <input class="style-div  input-full" id="first-name"
+                                type="firsNname" name="firstName">
+                            <label for="first-name">First Name</label>
+                        </div>
+                        <div class="l-name inline-div">
+                            <input class="style-div input-full" type="lastName" id="last-name" name="lastName">
+
+                            <label for="last-name">Last Name</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div>Company</div>
+                    <div><input class="style-div style-div-1" type="text" name="company"></div>
+                </div>
+
+                <div>
+                    <div>Email</div>
+                    <div><input class="style-div style-div-1" type="email" name="email"></div>
+                </div>
+
+                <div>
+                    <div>Phone</div>
+                    <div>
+                        <div class="area-code inline-div">
+                            <input class="style-div input-full" id="area-code" type="text" name="areCode">
+                            <label for="area-code">Area Code</label>
+                        </div>
+                        <div class="phone-number inline-div">
+                            <input class="style-div input-full" id="phone-number" type="text" name="phoneNumber">
+                            <label for="phone-number">Phone Number</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div>Subject</div>
+                    <div><select name="subjects" id="selected-subject" class="style-div style-div-1">
+                            <option value="">Choose Option</option>
+                            <option value="subject1">Subject 1</option>
+                            <option value="subject2">Subject 2</option>
+                            <option value="subject3">Subject 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div colspan="2">
+                        <p>Are you an existing customer?</p>
+                        <input type="radio" checked name="customerReview" id="yes" value="yes">
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" name="customerReview" id="no" value="no">
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <div>
+                    <div colspan="2">
+                        <button class="button">Register</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
